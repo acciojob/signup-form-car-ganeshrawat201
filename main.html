@@ -14,10 +14,10 @@
 		<label for="email">Email</label>
 		<input type="email" placeholder="Email" name="email" id="email" required>
 		<br>
-		<label for="gender_m,gender_f">gender</label>
-		<input type="radio" name="gender" id="gender_m,gender_f">male
-		
-		<input type="radio" name="gender" id="gender_m,gender_f">female
+		<label for="gender_m">male</label>
+		<input type="radio" name="gender" id="gender_m" required >
+		<label for="gender_f">femal</label>
+		<input type="radio" name="gender" id="gender_f" required >
 		<br>
 		<label for="cars">Cars</label>
 		<input type="select" placeholder="please chose option" name="Cars" id="cars" required>
@@ -41,7 +41,8 @@
 		<input type="passward" placeholder="Passward" id="passward" required>
 		<br>
 		
-		<input type="checkbox" id="tos" required> I agree to TOS
+		<input type="checkbox" id="tos" required>
+		<label for="tos">I agree to the TOS</label>
 		<br>
 		<input type="submit">
 	</form>
